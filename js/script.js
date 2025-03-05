@@ -31,9 +31,9 @@ function playGame(playerInput) {
 		}
 	};
 
-	let randomNumber = Math.floor(Math.random() * 3 + 1);
-	let computerMove = getMoveName(randomNumber);
-	let playerMove = getMoveName(playerInput);
+	const randomNumber = Math.floor(Math.random() * 3 + 1);
+	const computerMove = getMoveName(randomNumber);
+	const playerMove = getMoveName(playerInput);
 
 	printMessage("Mój ruch to: " + computerMove);
 	printMessage("Twój ruch to: " + playerMove);
